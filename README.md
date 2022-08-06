@@ -61,9 +61,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### Deployment (TRY THIS WEBSITE HERE)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+https://62eeb82db465cf71410867dd--celadon-brioche-8a9bff.netlify.app/
 
 ### `npm run build` fails to minify
 
