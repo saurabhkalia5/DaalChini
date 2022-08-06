@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img-fluid{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.logo{
+  width:120px;
+}
+
+
+.d-flex{
+  width: 1000px;
+  margin-left: 60px;
+}
+
+.dropdown-toggle{
+  margin-left: 60px;
+  font-size: 20px;
+}
+
+.loginBtn{
+  margin-left: 225px;
+  font:"apple-system";
+}
+
+.btnBox{
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color:#67a75c;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  font-weight:100px
+}
+
+.fa-cart-plus{
+  color: white;
+  font-size: 20px;
+  font-weight:100px
+}
+
+.searchBox{
+  padding-top: 5px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.card{
+  margin: 1rem;
+}
+
+.lowerEnd{
+  justify-content: space-evenly;
+}
+
+.checkOut{
+  background-color: #67a75c;
+  outline: #67a75c solid;
+}
+
+.btn{
+  background-color: #67a75c;
+} 
+
+
+.btn-primary{
+  background-color: #67a75c;
+}
+
+.loginForm{
+  background-image: 
+  url(
+"https://img4.goodfon.com/wallpaper/nbig/f/38/iagody-eda-kompozitsiia-fotosessiia-klubnika-fon-dereviannyi.jpg");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+ 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formJi{
+  background-color: white;
+  height: 5rem;
+  width: 35rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8px;
+  
+  
+}
+
+.Mobile{
+  text-decoration-color: white;
+  margin: 0;
+  width: 5rem;
+}
+
+.logOut{
+  background-color: red;
+  margin-left: 50vw;
+  margin-bottom: 1vh;
+
+}
+
+.confirmation{
+  background-image: 
+  url(
+"https://cdn.dribbble.com/users/1604785/screenshots/5902176/payment-sucess_4x.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+.place{
+  margin-left: 49.5vw;
+  margin-top: 1vh;
+}
