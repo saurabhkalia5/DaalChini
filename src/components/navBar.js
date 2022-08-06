@@ -18,7 +18,7 @@ class Navbar extends Component {
     render() {
         return (
             <>
-                <nav className=" navbar navbar-expand-lg bg-light " style={{position:"sticky",top:"0px",zIndex:"2"}}>
+                <nav className=" navbar navbar-expand-lg bg-light top-ribbon " style={{position:"sticky",top:"0px",zIndex:"2"}}>
                     <div className=" container-fluid ">
 
                         <div className=" collapse navbar-collapse" id="navbarSupportedContent">

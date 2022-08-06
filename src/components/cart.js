@@ -23,7 +23,8 @@ class Cart extends Component {
         let idx = this.getInxFromID(prduct, data);
         data[idx].quantity = data[idx].quantity - 1;
         if (data[idx].quantity == 0) {
-            data.splice(idx, 1)
+            alert("Can't Delete Item Once Added");
+            data[idx].quantity = data[idx].quantity + 1;
         }
         this.setState({
             cartItem: [...data]
