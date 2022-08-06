@@ -10,7 +10,7 @@ class Confirmation extends Component {
     render(){
         return(
             <>
-            <Link to="/"><div className="confirmation" onClick={this.handlePlace}>  
+            <Link to="/" reloadDocument="true"><div className="confirmation" onClick={this.handlePlace}>  
             </div></Link>
             </>
         )

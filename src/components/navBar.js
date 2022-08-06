@@ -31,13 +31,11 @@ class Navbar extends Component {
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li><Link to="/checkout" style={{textDecoration:"none"}}><a className="dropdown-item" href="#">Order History</a></Link></li>
-                                        <li><a className="dropdown-item" href="#">Usage Methodologies</a></li>
+                                        <li><a className="dropdown-item" href="https://github.com/saurabhkalia5/DaalChini/blob/main/README.md">Usage Methodologies</a></li>
                                     </ul>
                                 </li>
                                
-                                <li className="nav-item" style={{marginLeft:"1100px"}}>
-                                <Link to="/checkout" style={{textDecoration:"none"}}> <a className="nav-link loginBtn" href="#"><strong>Login</strong></a></Link>   
-                                </li>
+                                
                                 <li className="cart-item">
                                 <Link to="/cart" style={{textDecoration:"none"}} ><button className="btnBox" style={{display:"flex",justifyContent:"space-evenly",alignItems:"center"}}>Cart <i className="fa fa-cart-plus" style={{margin:"2px"}}></i></button></Link>
                                 </li>

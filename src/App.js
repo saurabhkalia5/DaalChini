@@ -5,6 +5,7 @@ import Navbar from './components/navBar';
 import {BrowserRouter,Routes,Route, Router} from 'react-router-dom'
 import CheckOut from './components/checkOut';
 import Confirmation from './components/confirmation';
+import CheckOutTwo from './components/checkOut2';
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Route path="/cart" element={<Cart/>}/>
     <Route path="/checkout" element={<CheckOut/>}/>
     <Route path="/confirmation" element={<Confirmation/>}/>
+    <Route path="/checkouttwo" element={<CheckOutTwo/>}/>
     </Routes>
     </BrowserRouter>
    </div>

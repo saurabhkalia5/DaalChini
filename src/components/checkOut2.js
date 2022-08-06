@@ -3,7 +3,7 @@ import { products } from "../data/products";
 import { Link } from "react-router-dom";
 
 
-class CheckOut extends Component {
+class CheckOutTwo extends Component {
     constructor() {
         super();
         this.state = {
@@ -20,8 +20,9 @@ class CheckOut extends Component {
 
     }
 
+
     handChange = () => {
-        let number = localStorage.getItem('userName' || '[]');
+        let number = localStorage.getItem('userName');
         let newDigit = document.getElementById("inlineFormInputGroupUsername").value;
         console.log(newDigit);
         console.log(this.state.total);
@@ -91,34 +92,9 @@ class CheckOut extends Component {
                 </div>
             )
         }
-        else {
-            return (
-                <div className="loginForm" >
-                    <form class="row row-cols-lg-auto g-3 align-items-center formJi">
-                        <div class="col-12">
-                            <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
-                            <div class="input-group">
-                                <div class="input-group-text">+91</div>
-                                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Mobile Number" onChange={() => this.handChange()} />
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-check">
-                               
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                            <Link to="/checkouttwo"><button type="submit" class="btn btn-primary submitJi">Submit</button></Link>
-                        </div>
-                    </form>
-                </div>
-            )
-        }
-
 
     }
 
 }
 
-export default CheckOut;
+export default CheckOutTwo;

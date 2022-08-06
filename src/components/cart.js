@@ -92,6 +92,7 @@ class Cart extends Component {
                     </tbody>
                 </table>
                 <div className="d-grid gap-1 col-1 mx-auto">
+                    
                 <Link to="/checkout"><button className="btn btn-primary checkOut" type="button">CheckOut</button></Link>
                 </div>
             </>
